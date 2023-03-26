@@ -1,23 +1,23 @@
 {
-    "spec_version"   : "v1.4",
-    "identifier"     : "InfernalRoboticsNext",
-    "name"           : "Infernal Robotics - Next",
+    "spec_version"   : "v1.4-patch1",
+    "identifier"     : "InfernalRoboticsNext-RO",
+    "name"           : "Infernal Robotics Next for Realism Overhaul",
     "abstract"       : "Robotic parts for your constructions",
-    "author"         : [ "Rudolf Meier", "ZodiusInfuser", "Ziw", "sirkut" ],
-    "$kref"          : "#/ckan/github/meirumeiru/InfernalRobotics/asset_match/InfernalRobotics_v[0-9]+\\.[0-9]+\\.[0-9]+\\.zip",
+    "author"         : [ "Ionite", "Rudolf Meier", "ZodiusInfuser", "Ziw", "sirkut" ],
+    "$kref"          : "#/ckan/github/ionite34/InfernalRoboticsNext-RO/asset_match/InfernalRobotics_v[0-9]+\\.[0-9]+\\.[0-9]+\\.zip",
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : ["GPL-3.0", "CC-BY-NC-ND-4.0", "MIT"],
     "release_status" : "stable",
     "resources"      : {
         "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/??-*",
-        "repository" : "https://github.com/meirumeiru/InfernalRobotics"
+        "repository" : "https://github.com/ionite34/InfernalRoboticsNext-RO"
     },
     "recommends"     : [
-        { "name" : "KerbalJointReinforcementNext" },
+        { "name" : "KerbalJointReinforcement" },
         { "name" : "TweakScale" }
     ],
     "conflicts"      : [
-        { "name" : "KerbalJointReinforcement", "max_version" : "3.99" }
+        { "name" : "InfernalRoboticsNext" }
     ],
     "install"        : [ {
         "file"       : "GameData/MagicSmokeIndustries",
